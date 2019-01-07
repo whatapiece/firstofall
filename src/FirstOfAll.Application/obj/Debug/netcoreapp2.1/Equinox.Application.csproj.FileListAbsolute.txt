@@ -1,0 +1,56 @@
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/bin/Debug/netcoreapp2.1/FirstOfAll.Application.deps.json
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/bin/Debug/netcoreapp2.1/FirstOfAll.Application.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/bin/Debug/netcoreapp2.1/FirstOfAll.Application.pdb
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/bin/Debug/netcoreapp2.1/FirstOfAll.Domain.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/bin/Debug/netcoreapp2.1/FirstOfAll.Infra.Data.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/bin/Debug/netcoreapp2.1/FirstOfAll.Domain.pdb
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/bin/Debug/netcoreapp2.1/FirstOfAll.Infra.Data.pdb
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/obj/Debug/netcoreapp2.1/FirstOfAll.Application.csprojAssemblyReference.cache
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/obj/Debug/netcoreapp2.1/FirstOfAll.Application.csproj.CoreCompileInputs.cache
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/obj/Debug/netcoreapp2.1/FirstOfAll.Application.AssemblyInfoInputs.cache
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/obj/Debug/netcoreapp2.1/FirstOfAll.Application.AssemblyInfo.cs
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/obj/Debug/netcoreapp2.1/FirstOfAll.Application.csproj.CopyComplete
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/obj/Debug/netcoreapp2.1/FirstOfAll.Application.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Application/obj/Debug/netcoreapp2.1/FirstOfAll.Application.pdb
+D:\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Application.deps.json
+D:\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Application.dll
+D:\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Application.pdb
+D:\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.dll
+D:\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+D:\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.pdb
+D:\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.pdb
+D:\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.csprojAssemblyReference.cache
+D:\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.csproj.CoreCompileInputs.cache
+D:\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.AssemblyInfoInputs.cache
+D:\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.AssemblyInfo.cs
+D:\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.csproj.CopyComplete
+D:\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.dll
+D:\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Application.deps.json
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Application.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Application.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.csprojAssemblyReference.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.csproj.CoreCompileInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.AssemblyInfoInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.AssemblyInfo.cs
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.csproj.CopyComplete
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Application.deps.json
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Application.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Application.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.csprojAssemblyReference.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.csproj.CoreCompileInputs.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.AssemblyInfoInputs.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.AssemblyInfo.cs
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.csproj.CopyComplete
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Application\obj\Debug\netcoreapp2.1\FirstOfAll.Application.pdb

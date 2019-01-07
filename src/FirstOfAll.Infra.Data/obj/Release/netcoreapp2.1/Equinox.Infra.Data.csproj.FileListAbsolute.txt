@@ -1,0 +1,14 @@
+c:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\bin\Release\netcoreapp2.1\FirstOfAll.Infra.Data.deps.json
+c:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\bin\Release\netcoreapp2.1\FirstOfAll.Infra.Data.runtimeconfig.json
+c:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\bin\Release\netcoreapp2.1\FirstOfAll.Infra.Data.runtimeconfig.dev.json
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\bin\Release\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\bin\Release\netcoreapp2.1\FirstOfAll.Infra.Data.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\bin\Release\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\bin\Release\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\obj\Release\netcoreapp2.1\FirstOfAll.Infra.Data.csprojAssemblyReference.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\obj\Release\netcoreapp2.1\FirstOfAll.Infra.Data.csproj.CoreCompileInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\obj\Release\netcoreapp2.1\FirstOfAll.Infra.Data.AssemblyInfoInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\obj\Release\netcoreapp2.1\FirstOfAll.Infra.Data.AssemblyInfo.cs
+c:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\obj\Release\netcoreapp2.1\FirstOfAll.Infra.Data.csproj.CopyComplete
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\obj\Release\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.Data\obj\Release\netcoreapp2.1\FirstOfAll.Infra.Data.pdb

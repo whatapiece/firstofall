@@ -1,0 +1,17 @@
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Domain\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.deps.json
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Domain\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Domain\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Domain\obj\Debug\netcoreapp2.1\FirstOfAll.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Domain\obj\Debug\netcoreapp2.1\FirstOfAll.Domain.AssemblyInfoInputs.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Domain\obj\Debug\netcoreapp2.1\FirstOfAll.Domain.AssemblyInfo.cs
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Domain\obj\Debug\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Domain\obj\Debug\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Domain\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.deps.json
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Domain\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Domain\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Domain\obj\Debug\netcoreapp2.1\FirstOfAll.Domain.csprojAssemblyReference.cache
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Domain\obj\Debug\netcoreapp2.1\FirstOfAll.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Domain\obj\Debug\netcoreapp2.1\FirstOfAll.Domain.AssemblyInfoInputs.cache
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Domain\obj\Debug\netcoreapp2.1\FirstOfAll.Domain.AssemblyInfo.cs
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Domain\obj\Debug\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Domain\obj\Debug\netcoreapp2.1\FirstOfAll.Domain.pdb

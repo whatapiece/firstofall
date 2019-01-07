@@ -1,0 +1,13 @@
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.Data/bin/Debug/netstandard2.0/appsettings.json
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.Data/bin/Debug/netstandard2.0/FirstOfAll.Infra.Data.deps.json
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.Data/bin/Debug/netstandard2.0/FirstOfAll.Infra.Data.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.Data/bin/Debug/netstandard2.0/FirstOfAll.Infra.Data.pdb
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.Data/bin/Debug/netstandard2.0/FirstOfAll.Domain.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.Data/bin/Debug/netstandard2.0/FirstOfAll.Domain.pdb
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.Data/obj/Debug/netstandard2.0/FirstOfAll.Infra.Data.csprojAssemblyReference.cache
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.Data/obj/Debug/netstandard2.0/FirstOfAll.Infra.Data.csproj.CoreCompileInputs.cache
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.Data/obj/Debug/netstandard2.0/FirstOfAll.Infra.Data.AssemblyInfoInputs.cache
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.Data/obj/Debug/netstandard2.0/FirstOfAll.Infra.Data.AssemblyInfo.cs
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.Data/obj/Debug/netstandard2.0/FirstOfAll.Infra.Data.csproj.CopyComplete
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.Data/obj/Debug/netstandard2.0/FirstOfAll.Infra.Data.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.Data/obj/Debug/netstandard2.0/FirstOfAll.Infra.Data.pdb

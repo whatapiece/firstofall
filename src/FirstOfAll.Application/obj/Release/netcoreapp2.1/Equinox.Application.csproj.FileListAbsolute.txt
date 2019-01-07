@@ -1,0 +1,14 @@
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Release\netcoreapp2.1\FirstOfAll.Application.deps.json
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Release\netcoreapp2.1\FirstOfAll.Application.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Release\netcoreapp2.1\FirstOfAll.Application.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Release\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Release\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Release\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\bin\Release\netcoreapp2.1\FirstOfAll.Infra.Data.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Release\netcoreapp2.1\FirstOfAll.Application.csprojAssemblyReference.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Release\netcoreapp2.1\FirstOfAll.Application.csproj.CoreCompileInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Release\netcoreapp2.1\FirstOfAll.Application.AssemblyInfoInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Release\netcoreapp2.1\FirstOfAll.Application.AssemblyInfo.cs
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Release\netcoreapp2.1\FirstOfAll.Application.csproj.CopyComplete
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Release\netcoreapp2.1\FirstOfAll.Application.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Application\obj\Release\netcoreapp2.1\FirstOfAll.Application.pdb

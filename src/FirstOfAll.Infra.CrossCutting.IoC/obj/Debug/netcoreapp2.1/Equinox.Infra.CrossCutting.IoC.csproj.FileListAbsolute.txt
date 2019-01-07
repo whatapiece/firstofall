@@ -1,0 +1,76 @@
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/bin/Debug/netcoreapp2.1/appsettings.json
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/bin/Debug/netcoreapp2.1/FirstOfAll.Infra.CrossCutting.IoC.deps.json
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/bin/Debug/netcoreapp2.1/FirstOfAll.Infra.CrossCutting.IoC.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/bin/Debug/netcoreapp2.1/FirstOfAll.Infra.CrossCutting.IoC.pdb
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/bin/Debug/netcoreapp2.1/FirstOfAll.Application.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/bin/Debug/netcoreapp2.1/FirstOfAll.Domain.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/bin/Debug/netcoreapp2.1/FirstOfAll.Infra.CrossCutting.Identity.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/bin/Debug/netcoreapp2.1/FirstOfAll.Infra.Data.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/bin/Debug/netcoreapp2.1/FirstOfAll.Application.pdb
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/bin/Debug/netcoreapp2.1/FirstOfAll.Domain.pdb
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/bin/Debug/netcoreapp2.1/FirstOfAll.Infra.CrossCutting.Identity.pdb
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/bin/Debug/netcoreapp2.1/FirstOfAll.Infra.Data.pdb
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/obj/Debug/netcoreapp2.1/FirstOfAll.Infra.CrossCutting.IoC.csprojAssemblyReference.cache
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/obj/Debug/netcoreapp2.1/FirstOfAll.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/obj/Debug/netcoreapp2.1/FirstOfAll.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/obj/Debug/netcoreapp2.1/FirstOfAll.Infra.CrossCutting.IoC.AssemblyInfo.cs
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/obj/Debug/netcoreapp2.1/FirstOfAll.Infra.CrossCutting.IoC.csproj.CopyComplete
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/obj/Debug/netcoreapp2.1/FirstOfAll.Infra.CrossCutting.IoC.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Infra.CrossCutting.IoC/obj/Debug/netcoreapp2.1/FirstOfAll.Infra.CrossCutting.IoC.pdb
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\appsettings.json
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.deps.json
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.dll
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.pdb
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Application.dll
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.dll
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.dll
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Application.pdb
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.pdb
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.pdb
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.pdb
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.csprojAssemblyReference.cache
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.AssemblyInfo.cs
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.csproj.CopyComplete
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.dll
+D:\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\appsettings.json
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.deps.json
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Application.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Application.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.csprojAssemblyReference.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.AssemblyInfo.cs
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.csproj.CopyComplete
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.deps.json
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Application.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Application.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.csprojAssemblyReference.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.AssemblyInfo.cs
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.csproj.CopyComplete
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.pdb

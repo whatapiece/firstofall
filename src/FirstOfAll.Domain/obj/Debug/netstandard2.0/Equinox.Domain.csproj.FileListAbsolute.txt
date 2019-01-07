@@ -1,0 +1,9 @@
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Domain/bin/Debug/netstandard2.0/FirstOfAll.Domain.deps.json
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Domain/bin/Debug/netstandard2.0/FirstOfAll.Domain.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Domain/bin/Debug/netstandard2.0/FirstOfAll.Domain.pdb
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Domain/obj/Debug/netstandard2.0/FirstOfAll.Domain.csprojAssemblyReference.cache
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Domain/obj/Debug/netstandard2.0/FirstOfAll.Domain.csproj.CoreCompileInputs.cache
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Domain/obj/Debug/netstandard2.0/FirstOfAll.Domain.AssemblyInfoInputs.cache
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Domain/obj/Debug/netstandard2.0/FirstOfAll.Domain.AssemblyInfo.cs
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Domain/obj/Debug/netstandard2.0/FirstOfAll.Domain.dll
+/home/iran/Projects/FirstOfAllProject/src/FirstOfAll.Domain/obj/Debug/netstandard2.0/FirstOfAll.Domain.pdb
