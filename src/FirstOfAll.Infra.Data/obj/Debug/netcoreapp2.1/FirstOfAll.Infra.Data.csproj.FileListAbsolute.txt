@@ -1,0 +1,28 @@
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.deps.json
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.runtimeconfig.json
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.runtimeconfig.dev.json
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.csprojAssemblyReference.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.AssemblyInfo.cs
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.csproj.CopyComplete
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAll\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.pdb
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.deps.json
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.runtimeconfig.json
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.runtimeconfig.dev.json
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.pdb
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.csprojAssemblyReference.cache
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.AssemblyInfo.cs
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.csproj.CopyComplete
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+C:\Users\Iran_\source\repos\firstofall\src\FirstOfAll.Infra.Data\obj\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.pdb

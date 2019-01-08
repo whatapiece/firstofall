@@ -1,0 +1,13 @@
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.Identity\bin\Release\netcoreapp2.1\appsettings.json
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.Identity\bin\Release\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.deps.json
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.Identity\bin\Release\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.Identity\bin\Release\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.Identity\bin\Release\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.Identity\bin\Release\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.Identity\obj\Release\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.csprojAssemblyReference.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.Identity\obj\Release\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.csproj.CoreCompileInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.Identity\obj\Release\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.AssemblyInfoInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.Identity\obj\Release\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.AssemblyInfo.cs
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.Identity\obj\Release\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.csproj.CopyComplete
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.Identity\obj\Release\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Infra.CrossCutting.Identity\obj\Release\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.pdb

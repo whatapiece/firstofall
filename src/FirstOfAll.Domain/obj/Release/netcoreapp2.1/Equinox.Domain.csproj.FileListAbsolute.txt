@@ -1,0 +1,9 @@
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Domain\bin\Release\netcoreapp2.1\FirstOfAll.Domain.deps.json
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Domain\bin\Release\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Domain\bin\Release\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Domain\obj\Release\netcoreapp2.1\FirstOfAll.Domain.csprojAssemblyReference.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Domain\obj\Release\netcoreapp2.1\FirstOfAll.Domain.csproj.CoreCompileInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Domain\obj\Release\netcoreapp2.1\FirstOfAll.Domain.AssemblyInfoInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Domain\obj\Release\netcoreapp2.1\FirstOfAll.Domain.AssemblyInfo.cs
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Domain\obj\Release\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.Domain\obj\Release\netcoreapp2.1\FirstOfAll.Domain.pdb

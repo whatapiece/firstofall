@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>FirstOfAll.Infra.CrossCutting.IoC</AssemblyName>
+    <PackageId>FirstOfAll.Infra.CrossCutting.IoC</PackageId>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirstOfAll.Application\FirstOfAll.Application.csproj" />
+    <ProjectReference Include="..\FirstOfAll.Domain\FirstOfAll.Domain.csproj" />
+    <ProjectReference Include="..\FirstOfAll.Infra.CrossCutting.Identity\FirstOfAll.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\FirstOfAll.Infra.Data\FirstOfAll.Infra.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>

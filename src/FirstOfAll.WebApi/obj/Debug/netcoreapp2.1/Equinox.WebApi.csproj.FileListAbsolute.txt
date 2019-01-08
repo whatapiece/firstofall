@@ -1,0 +1,34 @@
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.csprojAssemblyReference.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.csproj.CoreCompileInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.RazorAssemblyInfo.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.RazorAssemblyInfo.cs
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.AssemblyInfoInputs.cache
+C:\VSCode\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.AssemblyInfo.cs
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.WebApi.deps.json
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.WebApi.runtimeconfig.json
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.WebApi.runtimeconfig.dev.json
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.WebApi.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.WebApi.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.Application.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.Application.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.Identity.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.CrossCutting.IoC.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.Domain.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\bin\Debug\netcoreapp2.1\FirstOfAll.Infra.Data.pdb
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.csprojAssemblyReference.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.RazorAssemblyInfo.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.RazorAssemblyInfo.cs
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.AssemblyInfoInputs.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.AssemblyInfo.cs
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.csproj.CopyComplete
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.dll
+C:\Users\Iran_\OneDrive\Documentos\Visual Studio 2017\Projects\FirstOfAllProject\src\FirstOfAll.WebApi\obj\Debug\netcoreapp2.1\FirstOfAll.WebApi.pdb
