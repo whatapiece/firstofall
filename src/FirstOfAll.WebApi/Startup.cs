@@ -1,5 +1,4 @@
-﻿using FirstOfAll.Infra.CrossCutting.Identity.Authorization;
-using FirstOfAll.Infra.CrossCutting.Identity.Data;
+﻿using FirstOfAll.Infra.CrossCutting.Identity.Data;
 using FirstOfAll.Infra.CrossCutting.Identity.Models;
 using FirstOfAll.Infra.CrossCutting.IoC;
 using Microsoft.AspNetCore.Builder;
@@ -16,10 +15,13 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace FirstOfAll.WebApi
 {
-  public class Startup
+    public class Startup
     {
         public IConfigurationRoot Configuration { get; }
 
@@ -48,6 +50,22 @@ namespace FirstOfAll.WebApi
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
+            // Add Jwt Authentication
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            .AddJwtBearer(options =>
+            {
+                options.SaveToken = true;
+                options.RequireHttpsMetadata = false;
+                options.TokenValidationParameters = new TokenValidationParameters()
+                {
+                    ValidIssuer = Configuration["JwtIssuer"],
+                    ValidAudience = Configuration["JwtIssuer"],
+                    IssuerSigningKey = new SymmetricSecurityKey(
+                        Encoding.UTF8.GetBytes(
+                            Configuration["JwtKey"]))
+                };
+            });
+
             services.AddWebApi(options =>
             {
                 options.OutputFormatters.Remove(new XmlDataContractSerializerOutputFormatter());
@@ -56,16 +74,20 @@ namespace FirstOfAll.WebApi
 
             services.AddAutoMapperSetup();
 
-            
-
-            services.AddAuthorization(options =>
-            {
-                options.AddPolicy("CanWriteCustomerData", policy => policy.Requirements.Add(new ClaimRequirement("Customers", "Write")));
-                options.AddPolicy("CanRemoveCustomerData", policy => policy.Requirements.Add(new ClaimRequirement("Customers", "Remove")));
-            });
-
             services.AddSwaggerGen(s =>
             {
+                s.AddSecurityDefinition(
+                "Bearer",
+                new ApiKeyScheme()
+                {
+                    In = "header",
+                    Description = "Please insert JWT with Bearer into field",
+                    Name = "Authorization",
+                    Type = "apiKey"
+                });
+
+                s.DescribeAllEnumsAsStrings();
+
                 s.SwaggerDoc("v1", new Info
                 {
                     Version = "v1",

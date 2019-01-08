@@ -1,12 +1,11 @@
 using System;
 using FirstOfAll.Application.Interfaces;
 using FirstOfAll.Application.ViewModels;
-using Microsoft.AspNetCore.Authorization;
+using FirstOfAll.UI.Site.Controllers.Shared;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FirstOfAll.WebApi.Controllers
 {
-    [Authorize]
     public class CustomerController : ApiController
     {
         private readonly ICustomerAppService _customerAppService;
@@ -18,16 +17,18 @@ namespace FirstOfAll.WebApi.Controllers
         }
 
         [HttpGet]
-        [AllowAnonymous]
         [Route("customer-management")]
+        [IsAuthorize]
+        [ActionType(AccessType.Read)]
         public IActionResult Get()
         {
             return Response(_customerAppService.GetAll());
         }
 
         [HttpGet]
-        [AllowAnonymous]
         [Route("customer-management/{id:guid}")]
+        [IsAuthorize]
+        [ActionType(AccessType.Read)]
         public IActionResult Get(Guid id)
         {
             var customerViewModel = _customerAppService.GetId(id);
@@ -36,10 +37,13 @@ namespace FirstOfAll.WebApi.Controllers
         }     
 
         [HttpPost]
-        [Authorize(Policy = "CanWriteCustomerData")]
         [Route("customer-management")]
+        [IsAuthorize]
+        [ActionType(AccessType.Create)]
         public IActionResult Post([FromBody]CustomerViewModel customerViewModel)
         {
+            customerViewModel.Id = Guid.NewGuid();
+
             if (!ModelState.IsValid)
             {
                 return Response(customerViewModel);
@@ -51,8 +55,9 @@ namespace FirstOfAll.WebApi.Controllers
         }
         
         [HttpPut]
-        [Authorize(Policy = "CanWriteCustomerData")]
         [Route("customer-management")]
+        [IsAuthorize]
+        [ActionType(AccessType.Update)]
         public IActionResult Put([FromBody]CustomerViewModel customerViewModel)
         {
             if (!ModelState.IsValid)
@@ -66,8 +71,9 @@ namespace FirstOfAll.WebApi.Controllers
         }
 
         [HttpDelete]
-        [Authorize(Policy = "CanRemoveCustomerData")]
         [Route("customer-management")]
+        [IsAuthorize]
+        [ActionType(AccessType.Delete)]
         public IActionResult Delete(Guid id)
         {
             _customerAppService.Remove(id);
