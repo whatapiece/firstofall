@@ -11,13 +11,12 @@ using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using System.IO;
 using FirstOfAll.WebApi.Configurations;
-using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.AspNetCore.Identity;
+using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
 
 namespace FirstOfAll.WebApi
 {
@@ -50,7 +49,7 @@ namespace FirstOfAll.WebApi
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-            // Add Jwt Authentication
+            //Add Jwt Authentication
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options =>
             {
@@ -60,46 +59,41 @@ namespace FirstOfAll.WebApi
                 {
                     ValidIssuer = Configuration["JwtIssuer"],
                     ValidAudience = Configuration["JwtIssuer"],
-                    IssuerSigningKey = new SymmetricSecurityKey(
-                        Encoding.UTF8.GetBytes(
-                            Configuration["JwtKey"]))
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration["JwtKey"]))
                 };
             });
 
-            services.AddWebApi(options =>
+            //Swagger
+            services.AddSwaggerGen(options =>
+            {
+                options.AddSecurityDefinition(
+                    "Bearer",
+                    new ApiKeyScheme()
+                    {
+                        In = "header",
+                        Description = "Please insert JWT with Bearer into field",
+                        Name = "Authorization",
+                        Type = "apiKey"
+                    });
+
+                options.DescribeAllEnumsAsStrings();
+
+                options.SwaggerDoc("v1", new Info
+                {
+                    Title = "First Of All",
+                    Version = "v1",
+                    Description = "Service HTTP API",
+                    TermsOfService = "Terms Of Service"
+                });
+            });
+
+            services.AddMvc(options =>
             {
                 options.OutputFormatters.Remove(new XmlDataContractSerializerOutputFormatter());
                 options.UseCentralRoutePrefix(new RouteAttribute("api/v{version}"));
             });
-
+            
             services.AddAutoMapperSetup();
-
-            services.AddSwaggerGen(s =>
-            {
-                s.AddSecurityDefinition(
-                "Bearer",
-                new ApiKeyScheme()
-                {
-                    In = "header",
-                    Description = "Please insert JWT with Bearer into field",
-                    Name = "Authorization",
-                    Type = "apiKey"
-                });
-
-                s.DescribeAllEnumsAsStrings();
-
-                s.SwaggerDoc("v1", new Info
-                {
-                    Version = "v1",
-                    Title = "First Of All",
-                    Description = "",
-                    Contact = new Contact { Name = "", Email = "", Url = "" },
-                    License = new License { Name = "", Url = "" }
-                });
-            });
-
-            // Adding MediatR for Domain Events and Notifications
-            services.AddMediatR(typeof(Startup));
 
             // .NET Native DI Abstraction
             RegisterServices(services);
@@ -120,8 +114,8 @@ namespace FirstOfAll.WebApi
 
             app.UseCors(c =>
             {
-                c.AllowAnyHeader();
-                c.AllowAnyMethod();
+                //c.AllowAnyHeader();
+                //c.AllowAnyMethod();
                 c.AllowAnyOrigin();
             });
 

@@ -1,11 +1,14 @@
 using System;
 using FirstOfAll.Application.Interfaces;
 using FirstOfAll.Application.ViewModels;
-using FirstOfAll.UI.Site.Controllers.Shared;
+using FirstOfAll.WebApi.Controllers.Shared;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FirstOfAll.WebApi.Controllers
 {
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class CustomerController : ApiController
     {
         private readonly ICustomerAppService _customerAppService;

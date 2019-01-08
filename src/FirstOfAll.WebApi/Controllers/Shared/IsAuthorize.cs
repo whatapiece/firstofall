@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace FirstOfAll.UI.Site.Controllers.Shared
+namespace FirstOfAll.WebApi.Controllers.Shared
 {
 
     public class IsAuthorizeAttribute : TypeFilterAttribute

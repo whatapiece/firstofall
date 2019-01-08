@@ -1,6 +1,6 @@
 using System;
 
-namespace FirstOfAll.UI.Site.Controllers.Shared
+namespace FirstOfAll.WebApi.Controllers.Shared
 {
     public class ActionType : Attribute
     {
