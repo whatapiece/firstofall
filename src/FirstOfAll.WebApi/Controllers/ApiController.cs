@@ -6,7 +6,6 @@ namespace FirstOfAll.WebApi.Controllers
     {
         protected new IActionResult Response(object result = null)
         {
-            
             return Ok(new
             {
                 success = true,

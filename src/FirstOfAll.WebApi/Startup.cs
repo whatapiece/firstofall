@@ -1,5 +1,4 @@
-﻿using FirstOfAll.Infra.CrossCutting.Identity.Authorization;
-using FirstOfAll.Infra.CrossCutting.Identity.Data;
+﻿using FirstOfAll.Infra.CrossCutting.Identity.Data;
 using FirstOfAll.Infra.CrossCutting.Identity.Models;
 using FirstOfAll.Infra.CrossCutting.IoC;
 using Microsoft.AspNetCore.Builder;
@@ -12,14 +11,16 @@ using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using System.IO;
 using FirstOfAll.WebApi.Configurations;
-using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.AspNetCore.Identity;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 namespace FirstOfAll.WebApi
 {
-  public class Startup
+    public class Startup
     {
         public IConfigurationRoot Configuration { get; }
 
@@ -48,36 +49,51 @@ namespace FirstOfAll.WebApi
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-            services.AddWebApi(options =>
+            //Add Jwt Authentication
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            .AddJwtBearer(options =>
+            {
+                options.SaveToken = true;
+                options.RequireHttpsMetadata = false;
+                options.TokenValidationParameters = new TokenValidationParameters()
+                {
+                    ValidIssuer = Configuration["JwtIssuer"],
+                    ValidAudience = Configuration["JwtIssuer"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration["JwtKey"]))
+                };
+            });
+
+            //Swagger
+            services.AddSwaggerGen(options =>
+            {
+                options.AddSecurityDefinition(
+                    "Bearer",
+                    new ApiKeyScheme()
+                    {
+                        In = "header",
+                        Description = "Please insert JWT with Bearer into field",
+                        Name = "Authorization",
+                        Type = "apiKey"
+                    });
+
+                options.DescribeAllEnumsAsStrings();
+
+                options.SwaggerDoc("v1", new Info
+                {
+                    Title = "First Of All",
+                    Version = "v1",
+                    Description = "Service HTTP API",
+                    TermsOfService = "Terms Of Service"
+                });
+            });
+
+            services.AddMvc(options =>
             {
                 options.OutputFormatters.Remove(new XmlDataContractSerializerOutputFormatter());
                 options.UseCentralRoutePrefix(new RouteAttribute("api/v{version}"));
             });
-
-            services.AddAutoMapperSetup();
-
             
-
-            services.AddAuthorization(options =>
-            {
-                options.AddPolicy("CanWriteCustomerData", policy => policy.Requirements.Add(new ClaimRequirement("Customers", "Write")));
-                options.AddPolicy("CanRemoveCustomerData", policy => policy.Requirements.Add(new ClaimRequirement("Customers", "Remove")));
-            });
-
-            services.AddSwaggerGen(s =>
-            {
-                s.SwaggerDoc("v1", new Info
-                {
-                    Version = "v1",
-                    Title = "First Of All",
-                    Description = "",
-                    Contact = new Contact { Name = "", Email = "", Url = "" },
-                    License = new License { Name = "", Url = "" }
-                });
-            });
-
-            // Adding MediatR for Domain Events and Notifications
-            services.AddMediatR(typeof(Startup));
+            services.AddAutoMapperSetup();
 
             // .NET Native DI Abstraction
             RegisterServices(services);
@@ -98,8 +114,8 @@ namespace FirstOfAll.WebApi
 
             app.UseCors(c =>
             {
-                c.AllowAnyHeader();
-                c.AllowAnyMethod();
+                //c.AllowAnyHeader();
+                //c.AllowAnyMethod();
                 c.AllowAnyOrigin();
             });
 

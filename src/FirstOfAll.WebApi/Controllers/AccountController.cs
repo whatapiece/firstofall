@@ -1,11 +1,17 @@
-﻿using System.Security.Claims;
+﻿using System;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 using System.Threading.Tasks;
 using FirstOfAll.Infra.CrossCutting.Identity.Models;
 using FirstOfAll.Infra.CrossCutting.Identity.Models.AccountViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 
 namespace FirstOfAll.WebApi.Controllers
 {
@@ -14,65 +20,133 @@ namespace FirstOfAll.WebApi.Controllers
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IConfiguration _configuration;
         private readonly ILogger _logger;
+        
 
         public AccountController(
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
+            RoleManager<IdentityRole> roleManager,
+            IConfiguration configuration,
             ILoggerFactory loggerFactory)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _roleManager = roleManager;
+            _configuration = configuration;
             _logger = loggerFactory.CreateLogger<AccountController>();
         }
 
         [HttpPost]
         [AllowAnonymous]
         [Route("account/login")]
-        public async Task<IActionResult> Login([FromBody] LoginViewModel model)
+        public async Task<object> Login([FromBody] LoginViewModel model)
         {
             if (!ModelState.IsValid)
-            {
-                //NotifyModelStateErrors();
                 return Response(model);
+
+            if (model != null)
+            {
+                var userIdentity = await _userManager
+                    .FindByNameAsync(model.Email);
+
+                if (userIdentity != null)
+                {
+                    var resultadoLogin = _signInManager
+                        .CheckPasswordSignInAsync(userIdentity, model.Password, false)
+                        .Result;
+
+                    if (resultadoLogin.Succeeded)
+                    {
+                        var token = GetJwtSecurityToken(userIdentity);
+                        _logger.LogInformation(1, "User logged in.");
+
+                        return Ok(new
+                        {
+                            token = new JwtSecurityTokenHandler().WriteToken(token),
+                            expiration = token.ValidTo
+                        });
+                    }
+                }
             }
 
-            var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, false, true);
-            //if (!result.Succeeded)
-                //NotifyError(result.ToString(), "Login failure");
-
-            _logger.LogInformation(1, "User logged in.");
-            return Response("User logged in.");
+            return Response(new
+            {
+                authenticated = false,
+                message = "Invalid Credentials"
+            });
         }
 
         [HttpPost]
         [AllowAnonymous]
         [Route("account/register")]
-        public async Task<IActionResult> Register(RegisterViewModel model)
+        public async Task<object> Register(RegisterViewModel model)
         {
             if (!ModelState.IsValid)
-            {
-                //NotifyModelStateErrors();
                 return Response(model);
-            }
-
-            var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+ 
+            var user = new ApplicationUser { Id = Guid.NewGuid().ToString(), UserName = model.Email, Email = model.Email };
 
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
             {
-                // User claim for write customers data
-                await _userManager.AddClaimAsync(user, new Claim("Customers", "Write"));
-                await _userManager.AddClaimAsync(user, new Claim("Customers", "Remove"));
+                await _userManager.AddToRoleAsync(user, "Member");
 
-                await _signInManager.SignInAsync(user, false);
                 _logger.LogInformation(3, "User created a new account with password.");
-                return Response(model);
+                return Response("User created a new account with password.");
             }
 
-            //AddIdentityErrors(result);
-            return Response("User created a new account with password.");
+            return Response(model);
         }
+                
+        private JwtSecurityToken GetJwtSecurityToken(ApplicationUser user)
+        {
+            return new JwtSecurityToken(
+                _configuration["JwtIssuer"],
+                _configuration["JwtIssuer"],
+                GetTokenClaims(user).Result,
+                expires: DateTime.UtcNow.AddDays(Convert.ToInt64(_configuration["JwtExpireDays"])),
+                signingCredentials: new SigningCredentials(
+                    new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_configuration["JwtKey"])),
+                    SecurityAlgorithms.HmacSha256)
+            );
+        }
+
+        private async Task<List<Claim>> GetTokenClaims(ApplicationUser user)
+        {
+            IdentityOptions _options = new IdentityOptions();
+            var claims = new List<Claim>
+            {
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
+                        
+                new Claim(_options.ClaimsIdentity.UserIdClaimType, user.Id.ToString()),
+                new Claim(_options.ClaimsIdentity.UserNameClaimType, user.UserName)
+            };
+
+            var userClaims = await _userManager.GetClaimsAsync(user);
+            var userRoles = await _userManager.GetRolesAsync(user);
+
+            claims.AddRange(userClaims);
+
+            foreach (var userRole in userRoles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, userRole));
+                var role = await _roleManager.FindByNameAsync(userRole);
+                if (role != null)
+                {
+                    var roleClaims = await _roleManager.GetClaimsAsync(role);
+                    foreach (Claim roleClaim in roleClaims)
+                    {
+                        claims.Add(roleClaim);
+                    }
+                }
+            }
+            return claims;
+        }
+
     }
 }
