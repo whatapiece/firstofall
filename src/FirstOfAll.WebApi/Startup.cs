@@ -9,7 +9,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Mvc.Formatters;
-using System.IO;
 using FirstOfAll.WebApi.Configurations;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Swagger;
@@ -17,31 +16,30 @@ using Microsoft.AspNetCore.Identity;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using System.Collections.Generic;
+using FirstOfAll.WebApi.Settings;
 
 namespace FirstOfAll.WebApi
 {
     public class Startup
     {
-        public IConfigurationRoot Configuration { get; }
+        public IConfiguration Configuration { get; }
 
         public Startup(IHostingEnvironment env)
         {
             var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
+                .SetBasePath(env.ContentRootPath)
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+                .AddEnvironmentVariables();
 
-            if (env.IsDevelopment())
-            {
-                builder.AddUserSecrets<Startup>();
-            }
-
-            builder.AddEnvironmentVariables();
             Configuration = builder.Build();
         }
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<JwtSettings>(Configuration.GetSection("JwtSettings"));
+
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
@@ -57,9 +55,9 @@ namespace FirstOfAll.WebApi
                 options.RequireHttpsMetadata = false;
                 options.TokenValidationParameters = new TokenValidationParameters()
                 {
-                    ValidIssuer = Configuration["JwtIssuer"],
-                    ValidAudience = Configuration["JwtIssuer"],
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration["JwtKey"]))
+                    ValidIssuer = Configuration["JwtSettings:Issuer"],
+                    ValidAudience = Configuration["JwtSettings:Issuer"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration["JwtSettings:Key"]))
                 };
             });
 
@@ -75,6 +73,11 @@ namespace FirstOfAll.WebApi
                         Name = "Authorization",
                         Type = "apiKey"
                     });
+
+                options.AddSecurityRequirement(new Dictionary<string, IEnumerable<string>>
+                {
+                    { "Bearer", new string[] { } }
+                });
 
                 options.DescribeAllEnumsAsStrings();
 
@@ -107,15 +110,15 @@ namespace FirstOfAll.WebApi
         {
             loggerFactory.AddConsole();
 
-            if (env.IsDevelopment())
-            {
+            //if (env.IsDevelopment())
+            //{
                 app.UseDeveloperExceptionPage();
-            }
+            //}
 
             app.UseCors(c =>
             {
-                //c.AllowAnyHeader();
-                //c.AllowAnyMethod();
+                c.AllowAnyHeader();
+                c.AllowAnyMethod();
                 c.AllowAnyOrigin();
             });
 

@@ -1,0 +1,37 @@
+version: '3.4'
+
+services:
+  db:
+    image: microsoft/mssql-server-linux:latest
+    container_name: db
+    environment:
+      ACCEPT_EULA: 'Y' 
+      SA_PASSWORD: 'QbK2XEr6H8'
+    ports:
+        - "1433:1433"
+    volumes:
+      - sqldata:/var/opt/mssql
+    networks: 
+        - firstofall_network
+
+  web:
+    image: firstofallwebapi
+    container_name: firstofallwebapi
+    build:
+      context: .
+      dockerfile: src/FirstOfAll.WebApi/Dockerfile
+    environment:
+      CONNECTION_STRING: "Server=db;Database=FirstOfAll;User Id=sa;Password=QbK2XEr6H8"
+    depends_on:
+      - db
+    ports:
+      - "5000:80"
+    networks: 
+        - firstofall_network
+
+volumes:
+  sqldata:
+
+networks:
+  firstofall_network:
+    driver: bridge

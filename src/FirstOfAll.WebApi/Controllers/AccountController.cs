@@ -6,11 +6,12 @@ using System.Text;
 using System.Threading.Tasks;
 using FirstOfAll.Infra.CrossCutting.Identity.Models;
 using FirstOfAll.Infra.CrossCutting.Identity.Models.AccountViewModels;
+using FirstOfAll.WebApi.Settings;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
 namespace FirstOfAll.WebApi.Controllers
@@ -21,21 +22,20 @@ namespace FirstOfAll.WebApi.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
-        private readonly IConfiguration _configuration;
+        private readonly JwtSettings _jwtSettings;
         private readonly ILogger _logger;
         
-
         public AccountController(
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
             RoleManager<IdentityRole> roleManager,
-            IConfiguration configuration,
+            IOptions<JwtSettings> jwtSettings,
             ILoggerFactory loggerFactory)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
-            _configuration = configuration;
+            _jwtSettings = jwtSettings.Value;
             _logger = loggerFactory.CreateLogger<AccountController>();
         }
 
@@ -82,7 +82,7 @@ namespace FirstOfAll.WebApi.Controllers
         [HttpPost]
         [AllowAnonymous]
         [Route("account/register")]
-        public async Task<object> Register(RegisterViewModel model)
+        public async Task<object> Register([FromBody] RegisterViewModel model)
         {
             if (!ModelState.IsValid)
                 return Response(model);
@@ -104,13 +104,17 @@ namespace FirstOfAll.WebApi.Controllers
                 
         private JwtSecurityToken GetJwtSecurityToken(ApplicationUser user)
         {
+            var issuer = _jwtSettings.Issuer;
+            var expireDays = _jwtSettings.ExpireDays;
+            var key = _jwtSettings.Key;
+
             return new JwtSecurityToken(
-                _configuration["JwtIssuer"],
-                _configuration["JwtIssuer"],
+               issuer,
+                issuer,
                 GetTokenClaims(user).Result,
-                expires: DateTime.UtcNow.AddDays(Convert.ToInt64(_configuration["JwtExpireDays"])),
+                expires: DateTime.UtcNow.AddDays(Convert.ToInt64(expireDays)),
                 signingCredentials: new SigningCredentials(
-                    new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_configuration["JwtKey"])),
+                    new SymmetricSecurityKey(Encoding.ASCII.GetBytes(key)),
                     SecurityAlgorithms.HmacSha256)
             );
         }
@@ -147,6 +151,5 @@ namespace FirstOfAll.WebApi.Controllers
             }
             return claims;
         }
-
     }
 }
