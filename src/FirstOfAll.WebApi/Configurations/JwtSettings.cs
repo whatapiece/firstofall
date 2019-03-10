@@ -1,4 +1,4 @@
-﻿namespace FirstOfAll.WebApi.Settings
+﻿namespace FirstOfAll.WebApi.Configurations
 {
     public class JwtSettings
     {

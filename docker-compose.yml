@@ -3,7 +3,7 @@ version: '3.4'
 services:
   db:
     image: microsoft/mssql-server-linux:latest
-    container_name: db
+    container_name: sqlserver
     environment:
       ACCEPT_EULA: 'Y' 
       SA_PASSWORD: 'QbK2XEr6H8'
@@ -20,14 +20,12 @@ services:
     build:
       context: .
       dockerfile: src/FirstOfAll.WebApi/Dockerfile
-    environment:
-      CONNECTION_STRING: "Server=db;Database=FirstOfAll;User Id=sa;Password=QbK2XEr6H8"
     depends_on:
       - db
     ports:
       - "5000:80"
     networks: 
-        - firstofall_network
+      - firstofall_network
 
 volumes:
   sqldata:

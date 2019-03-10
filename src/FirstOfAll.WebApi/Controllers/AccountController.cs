@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FirstOfAll.Infra.CrossCutting.Identity.Models;
 using FirstOfAll.Infra.CrossCutting.Identity.Models.AccountViewModels;
-using FirstOfAll.WebApi.Settings;
+using FirstOfAll.WebApi.Configurations;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -61,10 +61,11 @@ namespace FirstOfAll.WebApi.Controllers
                     if (resultadoLogin.Succeeded)
                     {
                         var token = GetJwtSecurityToken(userIdentity);
-                        _logger.LogInformation(1, "User logged in.");
 
-                        return Ok(new
+                        return Response(new
                         {
+                            authenticated = true,
+                            message = "User logged in",
                             token = new JwtSecurityTokenHandler().WriteToken(token),
                             expiration = token.ValidTo
                         });
@@ -95,11 +96,20 @@ namespace FirstOfAll.WebApi.Controllers
             {
                 await _userManager.AddToRoleAsync(user, "Member");
 
-                _logger.LogInformation(3, "User created a new account with password.");
-                return Response("User created a new account with password.");
+                return Response(new
+                {
+                    message = "User created a new account with password"
+                });
             }
 
-            return Response(model);
+            model.ConfirmPassword = null;
+            model.Password = null;
+
+            return Response(new
+            {
+                message = "User created a new account with password",
+                user = model
+            });
         }
                 
         private JwtSecurityToken GetJwtSecurityToken(ApplicationUser user)

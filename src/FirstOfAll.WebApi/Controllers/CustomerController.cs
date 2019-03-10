@@ -35,7 +35,6 @@ namespace FirstOfAll.WebApi.Controllers
         public IActionResult Get(Guid id)
         {
             var customerViewModel = _customerAppService.GetId(id);
-
             return Response(customerViewModel);
         }     
 
@@ -54,7 +53,11 @@ namespace FirstOfAll.WebApi.Controllers
 
             _customerAppService.Register(customerViewModel);
 
-            return Response(customerViewModel);
+            return Response(new
+            {
+                message = "Customer created",
+                customer = customerViewModel
+            });
         }
         
         [HttpPut]
@@ -70,7 +73,11 @@ namespace FirstOfAll.WebApi.Controllers
 
             _customerAppService.Update(customerViewModel);
 
-            return Response(customerViewModel);
+            return Response(new
+            {
+                message = "Customer updated",
+                customer = customerViewModel
+            });
         }
 
         [HttpDelete]
@@ -80,8 +87,11 @@ namespace FirstOfAll.WebApi.Controllers
         public IActionResult Delete(Guid id)
         {
             _customerAppService.Remove(id);
-            
-            return Response();
+
+            return Response(new
+            {
+                message = "Customer deleted"
+            });
         }
 
     }

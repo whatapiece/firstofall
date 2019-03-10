@@ -17,7 +17,6 @@ using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Collections.Generic;
-using FirstOfAll.WebApi.Settings;
 
 namespace FirstOfAll.WebApi
 {
