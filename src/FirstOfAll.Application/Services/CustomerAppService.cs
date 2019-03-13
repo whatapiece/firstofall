@@ -13,9 +13,9 @@ namespace FirstOfAll.Application.Services
     {
         private readonly IMapper _mapper;
         private readonly ICustomerRepository _customerRepository;
-        
+
         public CustomerAppService(IMapper mapper,
-                                  ICustomerRepository customerRepository)        
+                                  ICustomerRepository customerRepository)
         {
             _mapper = mapper;
             _customerRepository = customerRepository;
